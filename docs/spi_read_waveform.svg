@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390" font-family="Consolas, monospace" font-size="13">
+<rect width="1100" height="390" fill="#ffffff"/>
+<text x="70" y="22" font-size="15" font-weight="bold" fill="#222">SPI mode 3 read of DEVID (simulated): MOSI 0x80 = read reg 0x00, MISO returns 0xE5</text>
+<line x1="156.2" y1="42" x2="156.2" y2="368" stroke="#e3e3e3"/>
+<line x1="212.2" y1="42" x2="212.2" y2="368" stroke="#e3e3e3"/>
+<line x1="268.2" y1="42" x2="268.2" y2="368" stroke="#e3e3e3"/>
+<line x1="324.2" y1="42" x2="324.2" y2="368" stroke="#e3e3e3"/>
+<line x1="380.2" y1="42" x2="380.2" y2="368" stroke="#e3e3e3"/>
+<line x1="436.2" y1="42" x2="436.2" y2="368" stroke="#e3e3e3"/>
+<line x1="492.1" y1="42" x2="492.1" y2="368" stroke="#e3e3e3"/>
+<line x1="548.1" y1="42" x2="548.1" y2="368" stroke="#e3e3e3"/>
+<line x1="604.1" y1="42" x2="604.1" y2="368" stroke="#e3e3e3"/>
+<line x1="660.1" y1="42" x2="660.1" y2="368" stroke="#e3e3e3"/>
+<line x1="716.1" y1="42" x2="716.1" y2="368" stroke="#e3e3e3"/>
+<line x1="772.1" y1="42" x2="772.1" y2="368" stroke="#e3e3e3"/>
+<line x1="828.1" y1="42" x2="828.1" y2="368" stroke="#e3e3e3"/>
+<line x1="884.0" y1="42" x2="884.0" y2="368" stroke="#e3e3e3"/>
+<line x1="940.0" y1="42" x2="940.0" y2="368" stroke="#e3e3e3"/>
+<line x1="996.0" y1="42" x2="996.0" y2="368" stroke="#e3e3e3"/>
+<text x="8" y="69.0" fill="#222" font-weight="bold">CS_N</text>
+<path d="M70.0,50.0 L100.2,50.0 L100.2,80.0 L1024.0,80.0 L1024.0,50.0 L1052.0,50.0 L1052.0,80.0 L1080.0,80.0" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="8" y="135.0" fill="#222" font-weight="bold">SCLK</text>
+<path d="M70.0,116.0 L128.2,116.0 L128.2,146.0 L156.2,146.0 L156.2,116.0 L184.2,116.0 L184.2,146.0 L212.2,146.0 L212.2,116.0 L240.2,116.0 L240.2,146.0 L268.2,146.0 L268.2,116.0 L296.2,116.0 L296.2,146.0 L324.2,146.0 L324.2,116.0 L352.2,116.0 L352.2,146.0 L380.2,146.0 L380.2,116.0 L408.2,116.0 L408.2,146.0 L436.2,146.0 L436.2,116.0 L464.1,116.0 L464.1,146.0 L492.1,146.0 L492.1,116.0 L520.1,116.0 L520.1,146.0 L548.1,146.0 L548.1,116.0 L576.1,116.0 L576.1,146.0 L604.1,146.0 L604.1,116.0 L632.1,116.0 L632.1,146.0 L660.1,146.0 L660.1,116.0 L688.1,116.0 L688.1,146.0 L716.1,146.0 L716.1,116.0 L744.1,116.0 L744.1,146.0 L772.1,146.0 L772.1,116.0 L800.1,116.0 L800.1,146.0 L828.1,146.0 L828.1,116.0 L856.1,116.0 L856.1,146.0 L884.0,146.0 L884.0,116.0 L912.0,116.0 L912.0,146.0 L940.0,146.0 L940.0,116.0 L968.0,116.0 L968.0,146.0 L996.0,146.0 L996.0,116.0 L1080.0,116.0" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="8" y="201.0" fill="#222" font-weight="bold">MOSI</text>
+<path d="M70.0,212.0 L100.2,212.0 L100.2,182.0 L184.2,182.0 L184.2,212.0 L1080.0,212.0" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="8" y="267.0" fill="#222" font-weight="bold">MISO</text>
+<line x1="70.0" y1="263.0" x2="100.2" y2="263.0" stroke="#c0392b" stroke-dasharray="4,3"/>
+<line x1="1024.0" y1="263.0" x2="1052.0" y2="263.0" stroke="#c0392b" stroke-dasharray="4,3"/>
+<path d="M100.2,278.0 L576.1,278.0 L576.1,248.0 L744.1,248.0 L744.1,278.0 L856.1,278.0 L856.1,248.0 L912.0,248.0 L912.0,278.0 L968.0,278.0 L968.0,248.0 L1024.0,248.0 M1052.0,278.0 L1080.0,278.0" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="8" y="333.0" fill="#222" font-weight="bold">done</text>
+<path d="M70.0,344.0 L1024.0,344.0 L1024.0,314.0 L1027.0,314.0 L1024.6,344.0 L1080.0,344.0" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<path d="M146.2,222 L146.2,226 L558.1,226 L558.1,222" fill="none" stroke="#555"/>
+<text x="352.2" y="238" text-anchor="middle" fill="#555">command 0x80: R/W=1, MB=0, addr 0x00</text>
+<path d="M594.1,288 L594.1,292 L1006.0,292 L1006.0,288" fill="none" stroke="#555"/>
+<text x="800.1" y="304" text-anchor="middle" fill="#555">data 0xE5 (sampled on SCLK rising edges)</text>
+<text x="1018.0" y="332" text-anchor="end" fill="#555">1-cycle done pulse</text>
+<text x="70" y="382" fill="#888" font-size="11">Icarus Verilog simulation of spi_master.v + ADXL345 model. SCLK = 500 kHz, gridlines = sample points.</text>
+</svg>
