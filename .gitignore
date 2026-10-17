@@ -35,6 +35,12 @@ qar/
 *.qarlog
 *~
 
+# Simulation output
+sim/build/
+*.vcd
+*.fst
+__pycache__/
+
 # OS files
 Thumbs.db
 Desktop.ini
