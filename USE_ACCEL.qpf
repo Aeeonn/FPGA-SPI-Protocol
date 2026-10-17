@@ -1,0 +1,6 @@
+DATE = "10:43:21 March 27, 2026"
+QUARTUS_VERSION = "16.0.0"
+
+# Revisions
+
+PROJECT_REVISION = "USE_ACCEL"

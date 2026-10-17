@@ -1,0 +1,41 @@
+# Quartus compilation databases
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+qar/
+
+# Compilation reports and generated netlists
+*.rpt
+*.rpt.htm
+*.rpt.htm_files/
+*.summary
+*.smsg
+*.eqn
+*.eqn.htm
+*.pin
+*.done
+*.jdi
+*.sld
+*.htm
+*.qmsg
+*.qdf
+
+# Programming files (regenerate by compiling the project)
+*.sof
+*.pof
+*.jic
+*.rbf
+*.cdf
+
+# Per-user Quartus workspace / editor backups
+*.qws
+*.bak
+*.qarlog
+*~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
