@@ -1,0 +1,29 @@
+name: Simulation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  testbenches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+
+      - name: Run self-checking testbenches
+        run: make -C sim
+
+      - name: Regenerate SPI waveform
+        run: make -C sim wave
+
+      - name: Upload waveform
+        uses: actions/upload-artifact@v4
+        with:
+          name: spi-waveform
+          path: |
+            docs/spi_read_waveform.svg
+            sim/build/tb_spi_master.vcd
