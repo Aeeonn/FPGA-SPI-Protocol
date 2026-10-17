@@ -200,7 +200,7 @@ set_location_assignment PIN_V12 -to GSENSOR_SDO
 
 
 set_global_assignment -name VERILOG_FILE btn_pulse.v
-set_global_assignment -name SDC_FILE USE_ACCEL.SDC
+set_global_assignment -name SDC_FILE USE_ACCEL.sdc
 set_global_assignment -name VERILOG_FILE spi_master.v
 set_global_assignment -name VERILOG_FILE adxl345_controller.v
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0

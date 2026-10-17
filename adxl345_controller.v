@@ -194,7 +194,7 @@ module adxl345_controller (
         .iRSTN(rst_n),
         .iCLK(clk_50),
         .iDIG(full_x[9:0]), // Pass it the bottom 10 bits of our read data
-        .iG_INT2(1'b0),     // We don't use interrupts, so tie this to 0
+        .iG_INT2(1'b0),     // Unused by the LED driver (INT2 is handled by the state machine above)
         .oLED(x_data_out)   // Send the output to your top level!
     );
 endmodule

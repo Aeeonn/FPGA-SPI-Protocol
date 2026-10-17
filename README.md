@@ -18,7 +18,7 @@ A from-scratch Verilog SPI master that talks to the onboard **ADXL345 accelerome
 | File | Description |
 |------|-------------|
 | [`USE_ACCEL.v`](USE_ACCEL.v) | Top-level module: connects board pins to the controller |
-| [`spi_master.v`](spi_master.v) | 16-bit SPI master, mode 3 (CPOL=1, CPHA=1), ~1 MHz SCLK from the 50 MHz clock |
+| [`spi_master.v`](spi_master.v) | 16-bit SPI master, mode 3 (CPOL=1, CPHA=1), 500 kHz SCLK from the 50 MHz clock |
 | [`adxl345_controller.v`](adxl345_controller.v) | State machine that configures the ADXL345 and reads X-axis data on each data-ready interrupt |
 | [`led_driver.v`](led_driver.v) | Maps the signed X reading to LED positions with PWM brightness and smooth fading |
 | [`btn_pulse.v`](btn_pulse.v) | Push-button synchronizer / rising-edge pulse helper (not used in the current top level) |
@@ -29,7 +29,7 @@ A from-scratch Verilog SPI master that talks to the onboard **ADXL345 accelerome
 ## How it works
 
 ### SPI master (`spi_master.v`)
-- Divides the 50 MHz system clock to a 1 MHz enable tick; SCLK toggles on each tick.
+- Divides the 50 MHz system clock to a 1 MHz enable tick; SCLK toggles on each tick, so SCLK runs at 500 kHz (well under the ADXL345's 5 MHz limit).
 - Idles with `CS_N` high and `SCLK` high (SPI mode 3, as required by the ADXL345).
 - Shifts a 16-bit word out MSB-first (8-bit command/address + 8-bit data), shifts MOSI on the falling edge, and samples MISO on the rising edge.
 - Raises `done` for exactly one 50 MHz cycle when the transfer completes, with the received byte on `rx_data`.
